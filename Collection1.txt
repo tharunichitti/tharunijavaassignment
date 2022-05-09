@@ -1,0 +1,22 @@
+package Package1;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Collection {
+
+	public static void main(String[] args) {
+		ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
+		list.add("red");//Adding object in array list  
+		list.add("green");  
+		list.add("Blue");  
+		list.add("white");  
+		//Traversing list through Iterator  
+		Iterator itr=list.iterator();  
+		while(itr.hasNext()){  
+		System.out.println(itr.next());  
+		}  
+
+	}
+
+}

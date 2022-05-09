@@ -1,0 +1,17 @@
+package Package1;
+
+public class Decrement {
+
+	public static void main(String[] args) {
+		int p=7;
+		int q=p--;
+		System.out.println(q);
+		
+		int r=9;
+		int s=--r;
+		System.out.println(s);
+		
+
+	}
+
+}

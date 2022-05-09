@@ -1,0 +1,27 @@
+package Package1;
+
+public class ArithmeticOperator {
+
+	public static void main(String[] args) {
+		int x = 210, y = 35;
+
+	    // addition operator
+	    System.out.println("x + y = " + (x + y));
+
+	    // subtraction operator
+	    System.out.println("x - y = " + (x - y));
+
+	    // multiplication operator
+	    System.out.println("x * y = " + (x * y));
+
+	    // division operator
+	    System.out.println("x / y = " + (x / y));
+
+	    // modulo operator
+	    System.out.println("x % y = " + (x % y));
+	  
+	
+
+	}
+
+}
